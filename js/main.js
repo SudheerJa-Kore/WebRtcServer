@@ -226,7 +226,7 @@ function requestTurn(turnURL) {
       }
     };
     xhr.open('GET', turnURL, true);
-    xhr.setRequestHeader( 'Access-Control-Allow-Origin', '*');
+    xhr.setRequestHeader("Access-Control-Allow-Origin","https://transcendent-wisp-02dd31.netlify.app/");
     xhr.send();
   }
 }
